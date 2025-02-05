@@ -1,0 +1,139 @@
+{
+    "config_files": {
+        "BasicConfig": {
+            "active": true
+        },
+        "MailConfig": {
+            "active": true
+        },
+        "UserConfig": {
+            "active": true
+        },
+        "DebugConfig": {
+            "active": true
+        },
+        "EditorConfig": {
+            "active": true
+        },
+        "SkinConfig": {
+            "active": true
+        },
+        "ParserFunctions": {
+            "active": true
+        },
+        "CustomFunctions": {
+            "active": false
+        }
+    },
+    "extensions": {
+        "composer": {
+            "SemanticMediaWiki": {
+                "path": "mediawiki/semantic-media-wiki",
+                "version": "*",
+                "maintenance_scripts": "php /var/www/html/extensions/SemanticMediaWiki/maintenance/setupStore.php",
+                "active": false
+            },
+            "SemanticResultFormats": {
+                "path": "mediawiki/semantic-result-formats",
+                "version": "~4.2",
+                "maintenance_scripts": "",
+                "active": false
+            },
+            "WikibaseLocalMedia": {
+                "path": "professional-wiki/wikibase-local-media",
+                "version": "*",
+                "active": true
+            },
+            "WikibaseEdtf": {
+                "path": "professional-wiki/wikibase-edtf",
+                "version": "^2.0.0",
+                "active": true
+            },
+            "Maps": {
+                "path": "mediawiki/maps",
+                "version": "~10.1",
+                "active": false
+            },
+            "PageForms": {
+                "path": "mediawiki/page-forms",
+                "version": "5.6.x",
+                "active": false
+            }
+        },
+        "git": {
+            "Wikibase": {
+                "path": "https://github.com/wikimedia/mediawiki-extensions-Wikibase.git",
+                "version": "REL1_39",
+                "custom_folder": "Wikibase",
+                "active": true
+            },
+            "WikibaseManifest": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/WikibaseManifest",
+                "version": "REL1_39",
+                "custom_folder": "",
+                "active": true
+            },
+            "Babel": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Babel",
+                "version": "REL1_39",
+                "custom_folder": "",
+                "active": true
+            },
+            "EntitySchema": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/EntitySchema",
+                "version": "REL1_39",
+                "custom_folder": "",
+                "active": true
+            },
+            "OAuth": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/OAuth",
+                "version": "REL1_39",
+                "custom_folder": "OAuth",
+                "active": true
+            },
+            "SemanticWikibase": {
+                "path": "https://github.com/baillyk/SemanticWikibase.git",
+                "version": "",
+                "custom_folder": "",
+                "active": false
+            },
+            "Arrays": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Arrays",
+                "version": "",
+                "custom_folder": "",
+                "active": false
+            },
+            "Variables": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables",
+                "version": "",
+                "custom_folder": "",
+                "active": false
+            },
+            "Loops": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops",
+                "version": "",
+                "custom_folder": "",
+                "active": false
+            },
+            "ParserFunctions": {
+                "path": "https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions",
+                "version": "REL1_39",
+                "custom_folder": "",
+                "active": false
+            }
+        }
+    },
+    "skins": {
+        "git": {
+            "Tweeki": {
+                "path": "https://github.com/thaider/Tweeki",
+                "version": "",
+                "custom_folder": "",
+                "active": true
+            }
+        },
+        "composer": {
+            
+        }
+    }
+}

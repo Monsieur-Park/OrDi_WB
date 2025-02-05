@@ -1,0 +1,38 @@
+{
+    "version": "2.0",
+    "mediawiki": {
+        "name": "Manorhouses",
+        "root": "https://wb.local/wiki/",
+        "main_page": "https://wb.local/wiki/Hauptseite",
+        "api": "https://wb.local/w/api.php"
+    },
+    "wikibase": {
+        "site_iri": "https://wb.local/entity/",
+        "maxlag": 5,
+        "properties": {
+            "instance_of": "P1",
+            "subclass_of": "P2"
+        }
+    },
+    "oauth": {
+        "registration_page": "https://wb.local/wiki/Special:OAuthConsumerRegistration/propose"
+    },
+    "entity_types": {
+        "item": {
+            "site_iri": "https://wb.local/entity/",
+            "reconciliation_endpoint": "https://reconcile.manorhouses.tibwiki.io/${lang}/api",
+            "mediawiki_api": "https://wb.local/w/api.php"
+        },
+        "property": {
+            "site_iri": "https://wb.local/entity/",
+            "mediawiki_api": "https://wb.local/w/api.php"
+        },
+        "mediainfo": {
+            "site_iri": "https://wb.local/entity/",
+            "reconciliation_endpoint": "https://reconcile.manorhouses.tibwiki.io/${lang}/api"
+        }
+    },
+    "editgroups": {
+        "url_schema": "([[:toollabs:editgroups-commons/b/OR/${batch_id}|details]])"
+    }
+}
